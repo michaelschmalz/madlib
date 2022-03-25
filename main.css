@@ -1,0 +1,43 @@
+
+body {
+  background-image: url(writing.jpg);
+  font-family: "Cormorant Garamond";
+  background-image: url("./assets/writing.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}
+
+.bg-1 {
+
+}
+
+h1 {
+  font-family: "Cormorant Garamond";
+  size: 60px;
+  text-align: center;
+}
+
+a {
+margin-top: 10px;
+color: white;
+background: blue;
+padding: 8px 20px;
+grid-column: 1 / -1;
+text-align: center;
+border-radius: 10px;
+cursor: pointer;
+}
+
+.inputs {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  font-size: 1.1rem;
+  padding: 8px;
+  border-radius: 2px;
+  border: none;
+}
+
+input {
+  color:white;
+}
